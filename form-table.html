@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Table</title>
+  </head>
+  <body>
+    <h3>Thông tin sản phẩm</h3>
+    <table border="3">
+      <thead>
+        <th>
+          <label for="a">Tên sản phẩm</label>
+          <input id="a" type="text" placeholder="Nhập đầy đủ tên" />
+        </th>
+        <th>
+          <label for="">Số lượng</label>
+          <input type="text" />
+        </th>
+      </thead>
+    </table>
+    <br />
+    <h3>Thông tin giao hàng</h3>
+    <table border="3">
+      <thead>
+        <th>
+          <label for="b">Họ và tên</label>
+          <input id="b" type="text" placeholder="Nhập đầy đủ tên" />
+        </th>
+        <th>
+          <label for="">Email</label>
+          <input type="email" />
+        </th>
+        <th>
+          <label for="">Số điện thoại</label>
+          <input type="tel" />
+        </th>
+        <th>
+          <label for="">Địa chỉ</label>
+          <textarea name="" id="" cols="15" rows="1"></textarea>
+        </th>
+      </thead>
+    </table>
+    <br />
+    <h3>Thông tin thanh toán</h3>
+    <table border="3">
+      <thead>
+        <th>
+          <label for="">Phương thức thanh toán</label>
+          <select name="" id="">
+            <option value="">Chọn phương thức thanh toán</option>
+            <option value="">Thẻ credit</option>
+            <option value="">Giao hàng thanh toán</option>
+          </select>
+        </th>
+      </thead>
+    </table>
+    <br />
+    <input type="submit" value="Đặt hàng" /><br />
+    <h1>Trang web bán hàng</h1>
+    <nav>
+      <li>
+        <a href="">Trang chủ</a>
+      </li>
+      <li>
+        <a href="">Sản phẩm</a>
+      </li>
+      <li>
+        <a href="">Giới thiệu</a>
+      </li>
+      <li>
+        <a href="">Liên hệ</a>
+      </li>
+    </nav>
+    <h2>Thông tin sản phẩm</h2>
+    <table border="1">
+      <!-- Tiêu đề của bảng -->
+      <!-- tr: table row-->
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Mô tả</th>
+          <th>Giá</th>
+          <th>Số lượng</th>
+        </tr>
+      </thead>
+      <!-- Thân bảng là nơi chứa toàn bộ dữ liệu  -->
+      <!-- tbody: table body -->
+      <!--  td: table data -->
+      <div>
+        <tbody>
+          <tr>
+            <td>SP1</td>
+            <td>Mô tả sp1</td>
+            <td>100000</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>SP2</td>
+            <td>Mô tả SP2</td>
+            <td>500000</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>SP3</td>
+            <td>Mô tả SP3</td>
+            <td>300000</td>
+            <td>20</td>
+          </tr>
+          <!-- Phần chân bảng -->
+        </tbody>
+      </div>
+    </table>
+    <h2>Thông tin người dùng</h2>
+    <div>
+      <label for="a">Họ và tên:</label>
+      <input name="a" id="a" placeholder="Nhập họ tên đầy đủ" />
+    </div>
+    <div>
+      <label for="b">Email:</label>
+      <input id="b" type="email" />
+    </div>
+    <div>
+      <label for="phoneNumber"> Số điện thoại:</label>
+      <input
+        name="phoneNumber"
+        id="phoneNumber"
+        type="tel"
+        placeholder="Nhập số điện thoại"
+      />
+    </div>
+    <div>
+      <label for="d">Địa chỉ:</label>
+      <textarea name="d" id="d" cols="25" rows="1"></textarea>
+    </div>
+    <input type="submit" value="Đặt hàng" />
+    <footer>
+      <p>&copy;2023 Trang web bán hàng</p>
+    </footer>
+  </body>
+</html>
